@@ -24,97 +24,97 @@ public class MainActivity extends AppCompatActivity {
 //        getMenuInflater().inflate(R.menu.main, menu);
 //        return true;
 //    }
-    public void btn00Click(View view){
+    public void btn00click(View view){
         EditText eText = (EditText)findViewById(R.id.resultEdit);
         //TextView eText = (TextView)findViewById(R.id.resultEdit);
         eText.setText(eText.getText()+"0");
     }
-    public void btn01Click(View view){
+    public void btn01click(View view){
         //TextView eText = (TextView)findViewById(R.id.resultEdit);
         EditText eText = (EditText)findViewById(R.id.resultEdit);
         eText.setText(eText.getText()+"1");
     }
-    public void btn02Click(View view){
+    public void btn02click(View view){
         //TextView eText = (TextView)findViewById(R.id.resultEdit);
         EditText eText = (EditText)findViewById(R.id.resultEdit);
         eText.setText(eText.getText()+"2");
     }
-    public void btn03Click(View view){
+    public void btn03click(View view){
         //TextView eText = (TextView)findViewById(R.id.resultEdit);
         EditText eText = (EditText)findViewById(R.id.resultEdit);
         eText.setText(eText.getText()+"3");
     }
-    public void btn04Click(View view){
+    public void btn04click(View view){
         //TextView eText = (TextView)findViewById(R.id.resultEdit);
         EditText eText = (EditText)findViewById(R.id.resultEdit);
         eText.setText(eText.getText()+"4");
     }
-    public void btn05Click(View view){
+    public void btn05click(View view){
         //TextView eText = (TextView)findViewById(R.id.resultEdit);
         EditText eText = (EditText)findViewById(R.id.resultEdit);
         eText.setText(eText.getText()+"5");
     }
-    public void btn06Click(View view){
+    public void btn06click(View view){
         //TextView eText = (TextView)findViewById(R.id.resultEdit);
         EditText eText = (EditText)findViewById(R.id.resultEdit);
         eText.setText(eText.getText()+"6");
     }
-    public void btn07Click(View view){
+    public void btn07click(View view){
         //TextView eText = (TextView)findViewById(R.id.resultEdit);
         EditText eText = (EditText)findViewById(R.id.resultEdit);
         eText.setText(eText.getText()+"7");
     }
-    public void btn08Click(View view){
+    public void btn08click(View view){
         //TextView eText = (TextView)findViewById(R.id.resultEdit);
         EditText eText = (EditText)findViewById(R.id.resultEdit);
         eText.setText(eText.getText()+"8");
     }
-    public void btn09Click(View view){
+    public void btn09click(View view){
         //TextView eText = (TextView)findViewById(R.id.resultEdit);
         EditText eText = (EditText)findViewById(R.id.resultEdit);
         eText.setText(eText.getText()+"9");
     }
 
-    public void btnAddClick(View view){
+    public void btnAddclick(View view){
         optr = Operator.add;
         //TextView eText = (TextView)findViewById(R.id.resultEdit);
         EditText eText = (EditText)findViewById(R.id.resultEdit);
         data1 = Double.parseDouble(eText.getText().toString());
         eText.setText("");
     }
-    public void btnMinusClick(View view){
+    public void btnMinusclick(View view){
         optr = Operator.minus;
         //TextView eText = (TextView)findViewById(R.id.resultEdit);
         EditText eText = (EditText)findViewById(R.id.resultEdit);
         data1 = Double.parseDouble(eText.getText().toString());
         eText.setText("");
     }
-    public void btnMultiplyClick(View view){
+    public void btnMultiplyclick(View view){
         optr = Operator.multiply;
         //TextView eText = (TextView)findViewById(R.id.resultEdit);
         EditText eText = (EditText)findViewById(R.id.resultEdit);
         data1 = Double.parseDouble(eText.getText().toString());
         eText.setText("");
     }
-    public void btnDivideClick(View view){
+    public void btnDivideclick(View view){
         //TextView eText = (TextView)findViewById(R.id.resultEdit);
         EditText eText = (EditText)findViewById(R.id.resultEdit);
         optr = Operator.divide;
         data1 = Double.parseDouble(eText.getText().toString());
         eText.setText("");
     }
-    public void btnClearClick(View view){
+    public void btnClearclick(View view){
         //TextView eText = (TextView)findViewById(R.id.resultEdit);
         EditText eText = (EditText)findViewById(R.id.resultEdit);
         eText.setText("");
     }
-    public void btnDotClick(View view){
+    public void btnDotclick(View view){
         //TextView eText = (TextView)findViewById(R.id.resultEdit);
         EditText eText = (EditText)findViewById(R.id.resultEdit);
         eText.setText(eText.getText()+".");
     }
 
-    public void btnResultClick(View view){
+    public void btnResultclick(View view){
         if(optr != Operator.none){
 
             //TextView eText = (TextView)findViewById(R.id.resultEdit);
